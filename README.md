@@ -1,6 +1,14 @@
+
+
+
+
 # OLX Demo
 
 A React Native / Expo demo app built with file-based routing, i18n (English & Arabic), dark/light theme, and a classified ads UI.
+
+video
+
+[Video Demo](./demo.mp4)
 
 ## Prerequisites
 
