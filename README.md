@@ -1,50 +1,55 @@
-# Welcome to your Expo app 👋
+# OLX Demo
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A React Native / Expo demo app built with file-based routing, i18n (English & Arabic), dark/light theme, and a classified ads UI.
 
-## Get started
+## Prerequisites
 
-1. Install dependencies
+- [Node.js](https://nodejs.org/) (LTS)
+- [pnpm](https://pnpm.io/installation)
+- [Android Studio](https://developer.android.com/studio) with an AVD (emulator) configured **or** a physical Android device connected via USB with USB debugging enabled
 
-   ```bash
-   npm install
-   ```
+## Running on Android
 
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+### 1. Install dependencies
 
 ```bash
-npm run reset-project
+pnpm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 2. Generate native project files
 
-## Learn more
+```bash
+pnpm prebuild
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+> This runs `expo prebuild` and generates the `android/` directory. Re-run whenever you add or change a native dependency.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### 3. Build and launch
 
-## Join the community
+```bash
+pnpm android
+```
 
-Join our community of developers creating universal apps.
+This compiles the native Android app and installs it on the running emulator or the first connected USB device.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Running on a physical device via USB
+
+1. Enable **Developer Options** on the device (tap *Build Number* 7 times in *About Phone*)
+2. Enable **USB Debugging** in Developer Options
+3. Connect the device via USB and accept the authorization prompt
+4. Verify the device is visible:
+   ```bash
+   adb devices
+   ```
+5. Run `pnpm android` — it will automatically target the connected device
+
+## Other commands
+
+| Command | Description |
+|---|---|
+| `pnpm start` | Start Metro bundler (Expo Go / dev client) |
+| `pnpm prebuild` | Regenerate native `android/` folder |
+| `pnpm android` | Build and run on Android |
+| `pnpm lint` | Run Biome linter |
+| `pnpm lint:fix` | Auto-fix lint issues |
+| `pnpm types` | TypeScript type check |
