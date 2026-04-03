@@ -1,41 +1,71 @@
-/**
- * Below are the colors that are used in the app. The colors are defined in the light and dark mode.
- * There are many other ways to style your app. For example, [Nativewind](https://www.nativewind.dev/), [Tamagui](https://tamagui.dev/), [unistyles](https://reactnativeunistyles.vercel.app), etc.
- */
-
 import { Platform } from "react-native"
-
-const tintColorLight = "#0a7ea4"
-const tintColorDark = "#fff"
 
 export const Colors = {
   light: {
-    text: "#11181C",
-    background: "#fff",
-    tint: tintColorLight,
-    icon: "#687076",
-    tabIconDefault: "#687076",
-    tabIconSelected: tintColorLight,
+    text: "#000000",
+    background: "#FFFFFF",
+    surface: "#F5F5F5",
+    border: "#E0E0E0",
+    muted: "#757575",
+    tint: "#000000",
+    icon: "#000000",
+    tabIconDefault: "#9E9E9E",
+    tabIconSelected: "#000000",
+    sellButton: "#000000",
+    sellButtonText: "#FFFFFF",
+    price: "#E00000",
+    eliteBadge: "#C8A84B",
+    eliteBadgeText: "#FFFFFF",
+    chip: "#F0F0F0",
+    chipText: "#000000",
+    chipActive: "#000000",
+    chipActiveText: "#FFFFFF",
+    card: "#FFFFFF",
+    cardBorder: "#E0E0E0",
+    input: "#F5F5F5",
+    inputBorder: "#E0E0E0",
+    ctaButton: "#000000",
+    ctaButtonText: "#FFFFFF",
+    whatsappButton: "#FFFFFF",
+    whatsappButtonText: "#000000",
+    ripple: "rgba(0,0,0,0.08)",
   },
   dark: {
-    text: "#ECEDEE",
-    background: "#151718",
-    tint: tintColorDark,
-    icon: "#9BA1A6",
-    tabIconDefault: "#9BA1A6",
-    tabIconSelected: tintColorDark,
+    text: "#FFFFFF",
+    background: "#121212",
+    surface: "#1E1E1E",
+    border: "#2C2C2C",
+    muted: "#9E9E9E",
+    tint: "#FFFFFF",
+    icon: "#FFFFFF",
+    tabIconDefault: "#616161",
+    tabIconSelected: "#FFFFFF",
+    sellButton: "#FFFFFF",
+    sellButtonText: "#000000",
+    price: "#FF5252",
+    eliteBadge: "#C8A84B",
+    eliteBadgeText: "#FFFFFF",
+    chip: "#2C2C2C",
+    chipText: "#FFFFFF",
+    chipActive: "#FFFFFF",
+    chipActiveText: "#000000",
+    card: "#1E1E1E",
+    cardBorder: "#2C2C2C",
+    input: "#2C2C2C",
+    inputBorder: "#3C3C3C",
+    ctaButton: "#FFFFFF",
+    ctaButtonText: "#000000",
+    whatsappButton: "#2C2C2C",
+    whatsappButtonText: "#FFFFFF",
+    ripple: "rgba(255,255,255,0.12)",
   },
 }
 
 export const Fonts = Platform.select({
   ios: {
-    /** iOS `UIFontDescriptorSystemDesignDefault` */
     sans: "system-ui",
-    /** iOS `UIFontDescriptorSystemDesignSerif` */
     serif: "ui-serif",
-    /** iOS `UIFontDescriptorSystemDesignRounded` */
     rounded: "ui-rounded",
-    /** iOS `UIFontDescriptorSystemDesignMonospaced` */
     mono: "ui-monospace",
   },
   default: {

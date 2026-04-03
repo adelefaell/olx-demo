@@ -1,3 +1,123 @@
 {
-  "start": "يبدأ"
+  "tabs": {
+    "home": "الرئيسية",
+    "account": "الحساب",
+    "settings": "الإعدادات"
+  },
+  "home": {
+    "searchPlaceholder": "ماذا تبحث عن؟",
+    "browseCategories": "تصفح الفئات",
+    "seeAll": "عرض الكل",
+    "recentAds": "أحدث الإعلانات",
+    "featuredCategories": "الفئات المميزة",
+    "featuredSections": {
+      "carsForSale": "سيارات للبيع",
+      "mobilePhones": "هواتف محمولة",
+      "apartmentsVillas": "شقق وفيلات"
+    }
+  },
+  "listing": {
+    "results": "{{count}} نتيجة لـ {{category}}",
+    "showing": "عرض:",
+    "sortBy": "ترتيب حسب",
+    "eliteAds": "إعلانات مميزة",
+    "viewMore": "عرض المزيد",
+    "noAds": "لا توجد إعلانات",
+    "noAdsDescription": "حاول تعديل الفلاتر أو البحث",
+    "loadingMore": "تحميل المزيد...",
+    "allAds": "جميع الإعلانات"
+  },
+  "filters": {
+    "title": "الفلاتر",
+    "clearAll": "مسح الكل",
+    "category": "الفئة",
+    "subCategory": "الفئة الفرعية",
+    "change": "تغيير",
+    "location": "الموقع",
+    "allCountry": "كل لبنان",
+    "brand": "الماركة",
+    "price": "السعر",
+    "priceMin": "الحد الأدنى",
+    "priceMax": "الحد الأقصى",
+    "condition": "الحالة",
+    "highlights": "المميزات",
+    "kilometers": "الكيلومترات",
+    "paymentOptions": "خيارات الدفع",
+    "seeResults": "عرض {{count}} نتيجة",
+    "any": "الكل",
+    "available": "متاح",
+    "new": "جديد",
+    "used": "مستعمل",
+    "apply": "تطبيق",
+    "activeFilters": "{{count}} نشط"
+  },
+  "ad": {
+    "description": "الوصف",
+    "details": "التفاصيل",
+    "similarAds": "إعلانات مشابهة",
+    "postedOn": "{{time}}",
+    "whatsapp": "واتساب",
+    "call": "اتصال",
+    "share": "مشاركة",
+    "save": "حفظ",
+    "elite": "مميز",
+    "verified": "موثق",
+    "showMore": "عرض المزيد",
+    "showLess": "عرض أقل"
+  },
+  "postAd": {
+    "selectCategory": "اختر الفئة",
+    "selectSubcategory": "اختر الفئة الفرعية",
+    "continue": "متابعة",
+    "title": "نشر إعلانك",
+    "titleLabel": "العنوان",
+    "titlePlaceholder": "أدخل عنواناً وصفياً",
+    "priceLabel": "السعر",
+    "pricePlaceholder": "أدخل السعر",
+    "descriptionLabel": "الوصف",
+    "descriptionPlaceholder": "صف منتجك بالتفصيل",
+    "locationLabel": "الموقع",
+    "submit": "نشر الإعلان",
+    "submitting": "جاري النشر...",
+    "success": "تم نشر إعلانك",
+    "error": "فشل نشر الإعلان"
+  },
+  "profile": {
+    "title": "الحساب",
+    "language": "اللغة",
+    "languageEn": "الإنجليزية",
+    "languageAr": "العربية",
+    "languageReloadNotice": "يحتاج التطبيق إلى إعادة تشغيل لتطبيق تغيير اللغة.",
+    "confirm": "تأكيد",
+    "cancel": "إلغاء",
+    "settings": "الإعدادات",
+    "login": "تسجيل الدخول",
+    "register": "إنشاء حساب",
+    "theme": "المظهر",
+    "themeLight": "فاتح",
+    "themeDark": "داكن"
+  },
+  "quickFilters": {
+    "title": "فلاتر سريعة",
+    "popularCategories": "الفئات الشائعة",
+    "searchPlaceholder": "ابحث عن سيارات، هواتف ..."
+  },
+  "locationPicker": {
+    "governorates": "المحافظات",
+    "searchPlaceholder": "ابحث عن موقع..."
+  },
+  "common": {
+    "loading": "جاري التحميل...",
+    "error": "حدث خطأ ما",
+    "retry": "إعادة المحاولة",
+    "back": "رجوع",
+    "comingSoon": "قريباً",
+    "close": "إغلاق",
+    "cancel": "إلغاء",
+    "confirm": "تأكيد",
+    "search": "بحث",
+    "currency": "USD",
+    "free": "مجاني",
+    "ago": "مضت"
+  }
 }

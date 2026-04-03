@@ -1,3 +1,123 @@
 {
-  "start": "start"
+  "tabs": {
+    "home": "Home",
+    "account": "Account",
+    "settings": "Settings"
+  },
+  "home": {
+    "searchPlaceholder": "What are you looking for?",
+    "browseCategories": "Browse Categories",
+    "seeAll": "See all",
+    "recentAds": "Recent Ads",
+    "featuredCategories": "Featured Categories",
+    "featuredSections": {
+      "carsForSale": "Cars for Sale",
+      "mobilePhones": "Mobile Phones",
+      "apartmentsVillas": "Apartments & Villas"
+    }
+  },
+  "listing": {
+    "results": "{{count}} Results for {{category}}",
+    "showing": "Showing:",
+    "sortBy": "Sort By",
+    "eliteAds": "Elite Ads",
+    "viewMore": "View more",
+    "noAds": "No ads found",
+    "noAdsDescription": "Try adjusting your filters or search",
+    "loadingMore": "Loading more...",
+    "allAds": "All Ads"
+  },
+  "filters": {
+    "title": "Filters",
+    "clearAll": "Clear all",
+    "category": "Category",
+    "subCategory": "Subcategory",
+    "change": "Change",
+    "location": "Location",
+    "allCountry": "All country",
+    "brand": "Brand",
+    "price": "Price",
+    "priceMin": "Min",
+    "priceMax": "Max",
+    "condition": "Condition",
+    "highlights": "Highlights",
+    "kilometers": "Kilometers",
+    "paymentOptions": "Payment Options",
+    "seeResults": "See {{count}} Results",
+    "any": "Any",
+    "available": "Available",
+    "new": "New",
+    "used": "Used",
+    "apply": "Apply",
+    "activeFilters": "{{count}} active"
+  },
+  "ad": {
+    "description": "Description",
+    "details": "Details",
+    "similarAds": "Similar Ads",
+    "postedOn": "{{time}}",
+    "whatsapp": "WhatsApp",
+    "call": "Call",
+    "share": "Share",
+    "save": "Save",
+    "elite": "Elite",
+    "verified": "Verified",
+    "showMore": "Show more",
+    "showLess": "Show less"
+  },
+  "postAd": {
+    "selectCategory": "Select Category",
+    "selectSubcategory": "Select Subcategory",
+    "continue": "Continue",
+    "title": "Post Your Ad",
+    "titleLabel": "Title",
+    "titlePlaceholder": "Enter a descriptive title",
+    "priceLabel": "Price",
+    "pricePlaceholder": "Enter price",
+    "descriptionLabel": "Description",
+    "descriptionPlaceholder": "Describe your item in detail",
+    "locationLabel": "Location",
+    "submit": "Post Ad",
+    "submitting": "Posting...",
+    "success": "Your ad has been posted",
+    "error": "Failed to post ad"
+  },
+  "profile": {
+    "title": "Account",
+    "language": "Language",
+    "languageEn": "English",
+    "languageAr": "Arabic",
+    "languageReloadNotice": "The app needs to restart to apply the language change.",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "settings": "Settings",
+    "login": "Log In",
+    "register": "Register",
+    "theme": "Theme",
+    "themeLight": "Light",
+    "themeDark": "Dark"
+  },
+  "quickFilters": {
+    "title": "Quick Filters",
+    "popularCategories": "Popular Categories",
+    "searchPlaceholder": "Find Cars, Mobile Phones ..."
+  },
+  "locationPicker": {
+    "governorates": "Governorates",
+    "searchPlaceholder": "Search locations..."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Retry",
+    "back": "Back",
+    "comingSoon": "Coming soon",
+    "close": "Close",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "search": "Search",
+    "currency": "USD",
+    "free": "Free",
+    "ago": "ago"
+  }
 }

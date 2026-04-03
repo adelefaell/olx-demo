@@ -9,7 +9,8 @@ type IconMapping = Record<
   SymbolViewProps["name"],
   ComponentProps<typeof MaterialIcons>["name"]
 >
-type IconSymbolName = keyof typeof MAPPING
+
+export type IconSymbolName = keyof typeof MAPPING
 
 /**
  * Add your SF Symbols to Material Icons mappings here.
@@ -17,11 +18,39 @@ type IconSymbolName = keyof typeof MAPPING
  * - see SF Symbols in the [SF Symbols](https://developer.apple.com/sf-symbols/) app.
  */
 const MAPPING = {
+  // Existing
   "house.fill": "home",
   "paperplane.fill": "send",
   "chevron.left.forwardslash.chevron.right": "code",
   "chevron.right": "chevron-right",
-} as IconMapping
+  // Navigation & UI
+  "chevron.left": "chevron-left",
+  "chevron.down": "keyboard-arrow-down",
+  xmark: "close",
+  magnifyingglass: "search",
+  "mappin.and.ellipse": "place",
+  "gearshape.fill": "settings",
+  "slider.horizontal.3": "tune",
+  // Badges
+  "star.fill": "star",
+  "checkmark.seal.fill": "verified",
+  // Categories
+  "car.fill": "directions-car",
+  iphone: "phone-iphone",
+  laptopcomputer: "computer",
+  "sofa.fill": "weekend",
+  "wrench.and.screwdriver.fill": "business-center",
+  "pawprint.fill": "pets",
+  "briefcase.fill": "work",
+  "tshirt.fill": "checkroom",
+  "figure.child": "child-care",
+  "sportscourt.fill": "sports-soccer",
+  "wrench.fill": "build",
+  "leaf.fill": "eco",
+  "square.grid.2x2.fill": "apps",
+  bicycle: "two-wheeler",
+  "building.2.fill": "apartment",
+} as unknown as IconMapping
 
 /**
  * An icon component that uses native SF Symbols on iOS, and Material Icons on Android and web.
