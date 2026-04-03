@@ -1,4 +1,9 @@
 
+video demo
+
+https://github.com/user-attachments/assets/43731439-b4fc-4e33-b8a2-6fe821ea7f7d
+
+
 
 
 
@@ -6,9 +11,6 @@
 
 A React Native / Expo demo app built with file-based routing, i18n (English & Arabic), dark/light theme, and a classified ads UI.
 
-video
-
-[Video Demo](./demo.mp4)
 
 ## Prerequisites
 
